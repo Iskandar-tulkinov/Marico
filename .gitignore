@@ -1,0 +1,7 @@
+
+*.crlf
+*.lf
+*.txt
+*.*
+
+/node_modules
