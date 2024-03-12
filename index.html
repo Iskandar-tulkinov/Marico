@@ -12,30 +12,30 @@
       <link rel="stylesheet" href="./assets/css/style.css" />
       <link rel="stylesheet" href="./assets/css/output.css" />
    </head>
-   <body class="bg-black text-white">
+   <body class="bg-yellow-500 text-red-400 mb-6">
       <header
-         class="bg-black flex sticky top-0 justify-between items-center pt-6 pb-3 px-16 md:pt-8 md:px-24 lg:pt-[46px] lg:px-[140px] lg:mb-32">
+         class="bg-black flex sticky top-0 z-10 justify-between items-center px-4 md:px-10 lg:px-16 pt-6 md:pt-8 lg:pt-10 2xl:pt-[46px] lg:mb-32">
          <a
-            class="group flex items-center gap-2 md:gap-4 pt-1 pb-2.5"
+            class="group flex items-center gap-2 md:gap-4 pt-1 pb-2.5 mb-2 lg:mb-[10px] 2xl:mb-[13px]"
             href="./index.html">
             <img
-               class="group-hover:opacity-80 duration-200 transition-all ease-linear"
+               class="scale-75 md:scale-[0.80] lg:scale-90 2xl:scale-100 group-hover:opacity-80 duration-200 transition-all ease-linear"
                src="./assets/img/logo.svg"
                alt="Logo of Marico" />
             <h1
-               class="text-white font-bold md:font-[800] text-4xl group-hover:text-[#3c82f4] duration-200 transition-all ease-linear">
+               class="text-white font-bold md:font-[800] text-xl md:text-2xl lg:text-3xl 2xl:text-4xl group-hover:text-[#3c82f4] duration-200 transition-all ease-linear">
                Marico
             </h1>
          </a>
 
          <nav
-            class="hidden lg:flex items-center lg:gap-9 md:py-3 text-[#707070] md:text-xl font-bold leading-7">
+            class="hidden lg:flex items-center lg:gap-9 md:py-3 text-[#707070] md:text-xl font-bold leading-normal">
             <a
-               class="flex items-center justify-start gap-1 px-2 py-1 border border-transparent rounded-md border-dashed hover:border-[#3C82F4] hover:text-[#3C82F4] duration-300 transition-all ease-linear"
+               class="flex items-center justify-center gap-1 px-2 py-1 border border-transparent rounded-md border-dashed hover:border-[#3C82F4] hover:text-[#3C82F4] duration-300 transition-all ease-linear"
                href="#">
                Use Cases
                <img
-                  class="text-white"
+                  class="hidden md:inline pt-1 text-white w-5 h-5"
                   src="./assets/img/arrow-down.svg"
                   alt="Down arrow icon" />
             </a>
@@ -55,7 +55,8 @@
                >Blog</a
             >
          </nav>
-         <div class="flex items-center gap-6 md:text-xl font-bold leading-7">
+         <div
+            class="flex items-center gap-6 md:text-xl font-bold leading-normal">
             <a
                class="px-2 py-1 border border-transparent rounded-md border-dashed hover:border-[#3C82F4] text-[#707070] hover:text-[#3C82F4] duration-300 transition-all ease-linear"
                href="#"
@@ -74,8 +75,9 @@
       </header>
 
       <main class="">
+         <!-- Call to Action -->
          <section
-            class="flex flex-col items-center justify-center py-6 px-16 md:py-8 md:px-24 lg:py-[46px] lg:px-[140px] mb-28 md:mb-32 lg:mb-[162px]">
+            class="flex flex-col items-center justify-center px-4 md:px-10 lg:px-16 mb-3 md:mb-4 lg:mb-5">
             <h2
                class="text-white text-5xl md:text-6xl lg:text-[112px] font-bold text-center mb-20 md:mb-24 lg:mb-[136px]">
                Own your audience.
@@ -88,15 +90,14 @@
                <br class="hidden md:inline-block" />
                text message subscribers.
             </h3>
-            <div
-               class="flex flex-col md:flex-row gap-5 md:gap-[26px] mb-3 md:mb-4 lg:mb-5">
+            <div class="flex flex-col md:flex-row gap-5 md:gap-[26px]">
                <button
-                  class="bg-[#326CF9] font-medium text-white text-base leading-7 tracking-normal text-left pt-[15px] pr-[45px] pb-3 pl-[45px] md:pt-[20px] md:pr-[60px] md:pb-4 md:pl-[60px] lg:pt-[23px] lg:pr-[74px] lg:pb-6 lg:pl-[73px] rounded-md transition duration-300 ease-in-out hover:bg-blue-400 active:bg-blue-600">
+                  class="bg-[#326CF9] font-medium text-white text-base leading-normal tracking-normal text-left pt-[15px] pr-[45px] pb-3 pl-[45px] md:pt-[20px] md:pr-[60px] md:pb-4 md:pl-[60px] lg:pt-[23px] lg:pr-[74px] lg:pb-6 lg:pl-[73px] rounded-md transition duration-300 ease-in-out hover:bg-blue-400 active:bg-blue-600">
                   Get Started Now
                </button>
 
                <button
-                  class="font-medium text-[#707070] text-base leading-7 tracking-normal text-left pt-[15px] pr-[45px] pb-3 pl-[45px] md:pt-[20px] md:pr-[60px] md:pb-4 md:pl-[60px] lg:pt-[23px] lg:pr-[74px] lg:pb-6 lg:pl-[73px] border border-[#707070] rounded-md transition duration-300 ease-in-out hover:text-white hover:bg-gray-400 active:bg-gray-500">
+                  class="font-medium text-[#707070] text-base leading-normal tracking-normal text-left pt-[15px] pr-[45px] pb-3 pl-[45px] md:pt-[20px] md:pr-[60px] md:pb-4 md:pl-[60px] lg:pt-[23px] lg:pr-[74px] lg:pb-6 lg:pl-[73px] border border-[#707070] rounded-md transition duration-300 ease-in-out hover:text-white hover:bg-gray-400 active:bg-gray-500">
                   View A Demo
                </button>
             </div>
@@ -107,88 +108,91 @@
                   <span
                      class="w-5 h-5 md:w-6 md:h-6 lg:w-8 lg:h-8 bg-green-500 rounded-full flex items-center justify-center shadow-green-400"></span>
                   <span
-                     class="text-white font-bold text-2xl md:text-3xl lgtext-5xl leading-9">
+                     class="text-white font-bold text-2xl md:text-3xl lg:text-5xl leading-normal">
                      1000+
                   </span>
                </span>
                <span
-                  class="text-[#707070] font-normal text-2xl md:text-3xl lg:text-4xl leading-10 tracking-normal text-center">
+                  class="text-[#707070] font-normal text-2xl md:text-3xl lg:text-4xl leading-normal tracking-normal text-center">
                   creators have already started
                </span>
             </p>
-            <div class="flex flex-col gap-10 md:gap-12 lg:gap-16">
-               <h2
-                  class="font-semibold text-white text-center text-3xl md:text-4xl lg:text-6xl leading-[112px] tracking-normal">
-                  Why Creators Love Marico
-               </h2>
-               <div class="flex flex-wrap justify-center gap-16 md:gap-20">
-                  <div class="flex flex-col gap-2 items-center">
-                     <span
-                        class="font-semibold text-white text-2xl md:text-2xl lg:text-3xl leading-[52px] tracking-normal">
-                        🙂Reduced Anxiety
-                     </span>
-                     <span
-                        class="font-normal text-[#707070] text-sm md:text-lg lg:text-lg leading-[33px] tracking-normal">
-                        Never worry about losing your audience.
-                     </span>
-                  </div>
-                  <div class="flex flex-col gap-2 items-center">
-                     <span
-                        class="font-semibold text-white text-2xl md:text-2xl lg:text-3xl leading-[52px] tracking-normal">
-                        😄 Lower Workload
-                     </span>
-                     <span
-                        class="text-[#707070] text-sm md:text-lg lg:text-lg leading-[33px] tracking-normal">
-                        Just share one link. We'll handle the rest.
-                     </span>
-                  </div>
-                  <div class="flex flex-col gap-2 items-center">
-                     <span
-                        class="font-semibold text-white text-2xl md:text-2xl lg:text-3xl leading-[52px] tracking-normal">
-                        🥳 More Time
-                     </span>
-                     <span
-                        class="text-[#707070] text-sm md:text-lg lg:text-lg leading-[33px] tracking-normal">
-                        Spend less time on marketing tools
-                     </span>
-                  </div>
+         </section>
+
+         <!-- Features -->
+         <section
+            class="flex flex-col gap-10 md:gap-12 lg:gap-16 px-4 md:px-10 lg:px-16 mb-28 md:mb-32 lg:mb-[162px]">
+            <h2
+               class="font-semibold text-white text-center text-3xl md:text-4xl lg:text-6xl leading-normal tracking-normal">
+               Why Creators Love Marico
+            </h2>
+            <div class="flex flex-wrap justify-center gap-6 md:gap-20">
+               <div class="flex flex-col gap-2 items-center">
+                  <span
+                     class="font-semibold text-white text-2xl md:text-2xl lg:text-3xl leading-normal tracking-normal">
+                     🙂Reduced Anxiety
+                  </span>
+                  <span
+                     class="font-normal text-[#707070] text-sm md:text-lg lg:text-lg leadingn tracking-normal king-normal">
+                     Never worry about losing your audience.
+                  </span>
+               </div>
+               <div class="flex flex-col gap-2 items-center">
+                  <span
+                     class="font-semibold text-white text-2xl md:text-2xl lg:text-3xl leading-normal tracking-normal">
+                     😄 Lower Workload
+                  </span>
+                  <span
+                     class="text-[#707070] text-sm md:text-lg lg:text-lg leading-normal tracking-normal">
+                     Just share one link. We'll handle the rest.
+                  </span>
+               </div>
+               <div class="flex flex-col gap-2 items-center">
+                  <span
+                     class="font-semibold text-white text-2xl md:text-2xl lg:text-3xl leading-normal tracking-normal">
+                     🥳 More Time
+                  </span>
+                  <span
+                     class="text-[#707070] text-sm md:text-lg lg:text-lg leading-normal tracking-normal">
+                     Spend less time on marketing tools
+                  </span>
                </div>
             </div>
          </section>
+
          <!-- Step 1 -->
          <section
-            class="flex flex-col justify-center mb-11 md:mb-14 lg:mb-[71px]">
+            class="flex flex-col justify-center px-4 md:px-10 lg:px-16 mb-11 md:mb-14 lg:mb-[71px]">
             <div
                class="flex flex-col justify-center items-center text-center mb-32 md:mb-36 lg:mb-[189px]">
                <h4
-                  class="text-[#3D82F2] font-poppins font-semibold text-base lg:text-lg leading-[38px] tracking-normal">
+                  class="text-[#3D82F2] font-poppins font-semibold text-base lg:text-lg leading-normal tracking-normal">
                   Step 1
                </h4>
                <h2
-                  class="text-white font-poppins font-semibold text-5xl md:text-6xl lg:text-[75px] leading-[56px] md:leading-[64px] lg:leading-[112px] tracking-normal mb-7 md:mb-8 lg:mb-10">
+                  class="text-white font-poppins font-semibold text-5xl md:text-6xl lg:text-[75px] leading-normal tracking-normal mb-7 md:mb-8 lg:mb-10">
                   Connect Your Content
                </h2>
                <p
-                  class="text-gray-700 font-poppins font-normal text-2xl lg:text-4xl leading-7 md:leading-9 lg:leading-[45px] tracking-normal text-center mb-6 md:mb-7 lg:mb-[34px]">
+                  class="text-gray-700 font-poppins font-normal text-2xl lg:text-4xl leading-normal tracking-normal text-center mb-6 md:mb-7 lg:mb-[34px]">
                   Bring all of your content together and get a Homepage that
                   <br class="hidden lg:block" />
                   automatically updates whenever you create anywhere online.
                </p>
                <button
-                  class="w-fit font-medium text-[#707070] text-base leading-7 tracking-normal text-left pt-[15px] px-5 pb-3 md:pt-[20px] md:px-6 md:pb-4 lg:pt-[23px] lg:px-9 lg:pb-6 border border-[#707070] rounded-md transition duration-300 ease-in-out hover:text-white hover:bg-gray-400 active:bg-gray-500">
+                  class="w-fit font-medium text-[#707070] text-base leading-normal tracking-normal text-left pt-[15px] px-5 pb-3 md:pt-[20px] md:px-6 md:pb-4 lg:pt-[23px] lg:px-9 lg:pb-6 border border-[#707070] rounded-md transition duration-300 ease-in-out hover:text-white hover:bg-gray-400 active:bg-gray-500">
                   View Avaliable Sources
                </button>
             </div>
 
-            <div
-               class="flex flex-col-reverse lg:flex-row gap-3 py-6 pl-16 md:py-8 md:pl-24 lg:py-[46px] lg:pl-[140px]">
-               <div class="flex flex-col">
+            <div class="flex flex-col-reverse lg:flex-row gap-8 md:gap-3">
+               <div class="flex flex-col px-4 md:px-10 lg:pl-16 mt-6 md:mt-0">
                   <h3
-                     class="text-white font-poppins font-medium text-lg md:text-2xl lg:text-[30px] leading-5 md:leading-7 lg:leading-[45px] tracking-normal text-left mb-10 md:mb-14 lg:mb-20">
+                     class="text-white font-poppins font-medium text-xl md:text-2xl lg:text-[30px] leading-normal tracking-normal text-left mb-3 md:mb-6 lg:mb-16 2xl:mb-20">
                      Your Homepage
                   </h3>
                   <h2
-                     class="text-white font-poppins font-semibold text-5xl lg:text-6xl leading-[54px] md:leading-[68px] lg:leading-[112px] tracking-normal text-left mb-4 md:mb-5 lg:mb-[29px]">
+                     class="text-white font-poppins font-semibold text-5xl lg:text-6xl leading-normal tracking-normal text-left mb-4 md:mb-5 lg:mb-[29px]">
                      Your Content.
                      <br />
                      All in <span class="text-[#3C82F4]">One Spot.</span>
@@ -199,7 +203,7 @@
                         >1</span
                      >
                      <span
-                        class="font-normal text-sm md:text-lg lg:text-[23px] leading-5 md:leading-6 lg:leading-[34px] tracking-normal text-left"
+                        class="font-normal text-sm md:text-lg lg:text-[23px] leading-normal tracking-normal text-left"
                         >Embed content or create something new to share.</span
                      >
                   </p>
@@ -210,29 +214,270 @@
                         >2</span
                      >
                      <span
-                        class="font-normal text-sm md:text-lg lg:text-[23px] leading-[34px] tracking-normal text-left"
+                        class="font-normal text-sm md:text-lg lg:text-[23px] leading-normal tracking-normal text-left"
                         >Share content over email, text message or your
                         homepage.</span
                      >
                   </p>
-                  <div class="flex flex-wrap gap-3 items-center justify-start">
+                  <div
+                     class="flex flex-col md:flex-row gap-3 items-center justify-start px-6 md:px-0">
                      <button
-                        class="font-medium text-white bg-[#326CF9] text-base leading-5 md:leading-6 lg:leading-[34px] tracking-normal text-left pt-[15px] px-5 pb-3 md:pt-[20px] md:px-6 md:pb-4 lg:pt-[23px] lg:px-9 lg:pb-6 rounded-md transition duration-300 ease-in-out hover:bg-blue-400 active:bg-blue-600">
+                        class="w-full md:w-1/2 font-medium text-white text-center bg-[#326CF9] text-base leading-normal tracking-normal py-2 px-4 md:pt-3 md:px-5 lg:py-5 lg:px-7 2xl:py-6 2xl:px-9 rounded-md transition duration-300 ease-in-out hover:bg-blue-400 active:bg-blue-600">
                         Get Started Now
                      </button>
                      <button
-                        class="font-medium text-[#707070] text-base leading-5 md:leading-6 lg:leading-[34px] tracking-normal text-left pt-[15px] px-5 pb-3 md:pt-[20px] md:px-6 md:pb-4 lg:pt-[23px] lg:px-9 lg:pb-6 border border-[#707070] rounded-md transition duration-300 ease-in-out hover:text-white hover:bg-gray-400 active:bg-gray-500">
+                        class="font-medium w-full md:w-1/2 text-[#707070] text-base leading-normal tracking-normal text-center py-2 px-4 md:pt-3 md:px-5 lg:py-5 lg:px-7 2xl:py-6 2xl:px-9 border border-[#707070] rounded-md transition duration-300 ease-in-out hover:text-white hover:bg-gray-400 active:bg-gray-500">
                         View Avaliable Sources
                      </button>
                   </div>
                </div>
-               <div class="">
+
+               <div class="mb-6 md:mb-0">
                   <img
                      src="./assets/img/Screen.png"
                      alt="The picture of a PC showing Spotify's content" />
                </div>
             </div>
          </section>
+
+         <!-- Step 2 -->
+         <section
+            class="px-4 md:px-10 lg:px-16 mb-24 md:mb-32 lg:mb-36 2xl:mb-[176px]">
+            <div
+               class="flex flex-col justify-center items-center text-center mb-32 md:mb-36 lg:mb-[176px]">
+               <h4
+                  class="text-[#3D82F2] font-poppins font-semibold text-base lg:text-lg leading-normal tracking-normal">
+                  Step 2
+               </h4>
+               <h2
+                  class="text-white font-poppins font-semibold text-5xl md:text-6xl lg:text-[75px] leading-normal tracking-normal mb-7 md:mb-8 lg:mb-10">
+                  Share Your Homepage
+               </h2>
+               <p
+                  class="text-gray-700 font-poppins font-normal text-2xl lg:text-4xl leading-normal tracking-normal text-center mb-6 md:mb-7 lg:mb-[34px]">
+                  Share your Wavium homepage link with your followers, and
+                  <br class="hidden lg:block" />
+                  we'll handle the rest.
+               </p>
+            </div>
+
+            <div
+               class="flex flex-col md:flex-row gap-6 mb-10 md:mb-12 lg:mb-16 2xl:mb-[76px]">
+               <div
+                  class="md:w-1/2 flex flex-col bg-[#0D0D0D] rounded-md pt-4 md:pt-5 lg:pt-8 pl-6 md:pl-8 lg:pl-11">
+                  <h3
+                     class="text-[#0FC65C] font-normal text-sm md:text-xl lg:text-2xl 2xl:text-[30px] leading-normal mb-3 md:mb-4 lg:mb-6">
+                     One Link
+                  </h3>
+                  <h2
+                     class="text-[#919191] text-4xl md:text-5xl lg:text-[68px] 2xl:text-[80px] leading-normal mb-4">
+                     ALL You Create.
+                     <span class="block text-white">One Link</span>
+                  </h2>
+                  <img
+                     src="./assets/img/Mobile_body.png"
+                     alt="A picture of mobile device"
+                     width="778"
+                     height="338" />
+               </div>
+               <div
+                  class="md:w-1/2 flex flex-col bg-[#0D0D0D] rounded-md pt-4 md:pt-5 lg:pt-8 pl-6 md:pl-8 lg:pl-11">
+                  <h3
+                     class="text-[#0FC65C] font-normal text-sm md:text-xl lg:text-2xl 2xl:text-[30px] leading-normal mb-10 md:mb-14 lg:mb-20 2xl::mb-24">
+                     Collect Subscribers
+                  </h3>
+                  <h2
+                     class="text-[#919191] text-4xl md:text-5xl lg:text-[68px] 2xl:text-[80px] leading-normal mb-12 md:mb-16 lg:mb-20">
+                     Emails.
+                     <br />
+                     Phones.
+                     <span class="block text-white">All Yours.</span>
+                  </h2>
+               </div>
+            </div>
+            <div class="flex justify-center">
+               <button
+                  class="bg-[#326CF9] font-medium text-white self-center text-base leading-normal tracking-normal text-left py-2 pr-10 pl-[45px] md:py-4 md:pr-[60px] md:pl-[60px] lg:py-[22px] lg:pr-[86px] lg:pl-[82px] rounded-md transition duration-300 ease-in-out hover:bg-blue-400 active:bg-blue-600">
+                  Get Started Now
+               </button>
+            </div>
+         </section>
+
+         <!-- Step 3 -->
+         <section
+            class="mb-14 md:mb-16 lg:mb-20 2xl:mb-24 px-4 md:px-10 lg:px-16">
+            <div
+               class="flex flex-col justify-center items-center text-center mb-32 md:mb-36 lg:mb-[176px]">
+               <h4
+                  class="text-[#3D82F2] font-poppins font-semibold text-base lg:text-lg leading-normal tracking-normal">
+                  Step 3
+               </h4>
+               <h2
+                  class="text-white font-poppins font-semibold text-5xl md:text-6xl lg:text-[75px] leading-normal tracking-normal mb-7 md:mb-8 lg:mb-10">
+                  Send Emails & Text Messages
+               </h2>
+               <p
+                  class="text-gray-700 font-poppins font-normal text-2xl lg:text-4xl leading-normal tracking-normal text-center mb-6 md:mb-7 lg:mb-[34px]">
+                  No more going through a social platform. Reach and engage
+                  <br class="hidden lg:block" />
+                  your audience directly over email and text massage.
+               </p>
+            </div>
+
+            <div class="flex flex-col-reverse lg:flex-row gap-8 md:gap-3">
+               <div class="flex flex-col px-4 md:px-10 lg:pl-16 mt-6 md:mt-0">
+                  <h3
+                     class="text-white font-poppins font-medium text-xl md:text-2xl lg:text-[30px] leading-normal tracking-normal text-left mb-3 md:mb-6 lg:mb-16 2xl:mb-20">
+                     Create & Share
+                  </h3>
+                  <h2
+                     class="text-white font-poppins font-semibold text-5xl lg:text-6xl leading-normal tracking-normal text-left mb-4 md:mb-5 lg:mb-[29px]">
+                     Reach Your
+
+                     <br />
+                     Audience<span class="text-[#3C82F4] block md:inline-block"
+                        >Directly.</span
+                     >
+                  </h2>
+                  <p class="flex gap-3 items-center mb-2 md:mb-3">
+                     <span
+                        class="text-sm md:text-[16px] lg:text-lg rounded-full bg-slate-500 px-2 py-0.5 md:px-3 md:py-1"
+                        >1</span
+                     >
+                     <span
+                        class="font-normal text-sm md:text-lg lg:text-[23px] leading-normal tracking-normal text-left">
+                        Embed content or create something new to share.
+                     </span>
+                  </p>
+                  <p
+                     class="flex gap-3 items-center mb-10 md:mb-14 lg:mb-[66px]">
+                     <span
+                        class="text-sm md:text-[16px] lg:text-lg rounded-full bg-slate-500 px-2 py-0.5 md:px-3 md:py-1">
+                        2
+                     </span>
+                     <span
+                        class="font-normal text-sm md:text-lg lg:text-[23px] leading-normal tracking-normal text-left">
+                        Share content over email, text message or your homepage.
+                     </span>
+                  </p>
+                  <div
+                     class="flex flex-col md:flex-row gap-3 items-center justify-start px-6 md:px-0">
+                     <button
+                        class="w-full md:w-1/2 font-medium text-white text-center bg-[#326CF9] text-base leading-normal tracking-normal py-2 px-4 md:pt-3 md:px-5 lg:py-5 lg:px-7 2xl:py-6 2xl:px-9 rounded-md transition duration-300 ease-in-out hover:bg-blue-400 active:bg-blue-600">
+                        Get Started Now
+                     </button>
+                     <button
+                        class="font-medium w-full md:w-1/2 text-[#707070] text-base leading-normal tracking-normal text-center py-2 px-4 md:pt-3 md:px-5 lg:py-5 lg:px-7 2xl:py-6 2xl:px-9 border border-[#707070] rounded-md transition duration-300 ease-in-out hover:text-white hover:bg-gray-400 active:bg-gray-500">
+                        View A Demo
+                     </button>
+                  </div>
+               </div>
+
+               <div class="mb-6 md:mb-0">
+                  <img
+                     src="./assets/img/Screen-2.png"
+                     alt="The picture of a PC showing Spotify's content" />
+               </div>
+            </div>
+         </section>
+
+         <!-- Testimonials -->
+         <section class="flex flex-col mb-24 md:mb-32 lg:mb-40 2xl:mb-[188px]">
+            <h2
+               class="text-white text-center font-semibold text-[40px] md:text-5xl lg:text-6xl 2xl:text-[70px] mb-9 md:mb-10 lg:mb-12 2xl:mb-[52px]">
+               Experts agreee
+            </h2>
+            <img src="./assets/img/testimonials-marico.png" alt="dsfghfg" />
+         </section>
+
+         <!-- Customers -->
+         <section class="relative mb-24 md:mb-32 lg:mb-40 2xl:mb-[188px]">
+            <h2
+               class="absolute z-0 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-[16px] md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-[70px] leading-normal">
+               We've helped over 1,000 creators' claim control of their
+               audience.
+            </h2>
+            <img src="./assets/img/customers-pic.png" alt="" />
+         </section>
+
+         <!-- Call to Action -->
+         <section
+            class="flex flex-col justify-start items-center px-4 md:px-10 lg:px-16 mb-24 md:mb-32 lg:mb-[152px] 2xl:mb-[183px]">
+            <img
+               class="scale-100 w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-36 xl:4-36 2xl:w-40 2xl:h-40 mb-3 md:mb-4 lg:mb-5"
+               src="./assets/./img/logo.svg"
+               alt="Logo of the Marico co" />
+            <h2
+               class="text-white font-bold leading-normal m-0 tracking-normal text-[38px] md:text-[68px] lg:text-[83px] 2xl:text-[100px]">
+               Get Started Now
+            </h2>
+            <h3
+               class="font-normal text-white text-2xl md:text-[29px] lg:text-[35px] 2xl:text-[43px] mb-1 md:mb-2 lg:mb-3 2xl:mb-4">
+               Setup is easy and takes under 5 minutes.
+            </h3>
+            <button
+               class="bg-[#326CF9] font-medium text-white text-base md:text-xl lg:text-2xl 2xl:text-3xl leading-normal tracking-normal text-center pt-[15px] pr-[45px] pb-3 pl-[45px] md:pt-[20px] md:pr-[60px] md:pb-4 md:pl-[60px] lg:pt-[29px] lg:pr-[113px] lg:pb-7 lg:pl-[112px] 2xl::pt-[29px] 2xl:pr-[113px] 2xl:pb-7 2xl:pl-[112px] mb-3 md:mb-4 lg:mb-5 2xl:mb-[26px] rounded-md transition duration-300 ease-in-out hover:bg-blue-400 active:bg-blue-600">
+               Get Started Now
+            </button>
+            <p
+               class="flex flex-col md:flex-row items-center justify-center gap-2 text-2xl md:text-3xl lg:text-3xl 2xl:text-[38px] leading-normal tracking-normal text-center">
+               <span class="flex items-center gap-2">
+                  <span
+                     class="w-5 h-5 md:w-6 md:h-6 lg:w-8 lg:h-8 bg-green-500 rounded-full flex items-center justify-center shadow-green-400"></span>
+                  <span class="text-white font-bold"> 1000+ </span>
+               </span>
+               <span class="text-[#707070] font-normal">
+                  creators have already started
+               </span>
+            </p>
+         </section>
+
+         <footer class="flex justify-between gap-2 px-4 md:px-10 lg:px-16">
+            <div class="">
+               <a
+                  class="group flex items-center gap-2 md:gap-4 pt-1 pb-2.5 mb-2 lg:mb-[10px] 2xl:mb-[13px]"
+                  href="./index.html">
+                  <img
+                     class="scale-75 md:scale-[0.80] lg:scale-90 2xl:scale-100 group-hover:opacity-80 duration-200 transition-all ease-linear"
+                     src="./assets/img/logo.svg"
+                     alt="Logo of Marico" />
+                  <h1
+                     class="text-white font-bold md:font-[800] text-xl md:text-2xl lg:text-3xl 2xl:text-4xl group-hover:text-[#3c82f4] duration-200 transition-all ease-linear">
+                     Marico
+                  </h1>
+               </a>
+               <a
+                  class="text-[#707070] text-sm md:text-lg lg:text-[22px] 2xl:text-[27px] transition duration-300 ease-in-out hover:text-white hover:bg-gray-400 active:bg-gray-500 rounded-sm px-1"
+                  href="https://www.info@marico.co"
+                  target="_blank">
+                  info@marico.co
+               </a>
+            </div>
+
+            <div
+               class="flex flex-wrap justify-end items-center gap-1 md:gap-3 lg:gap-5 2xl:gap-7 md:py-3 text-[#707070] md:text-xl font-bold leading-normal">
+               <a
+                  class="px-2 py-1 border border-transparent rounded-md border-dashed hover:border-[#3C82F4] hover:text-[#3C82F4] duration-300 transition-all ease-linear"
+                  href="#"
+                  >About</a
+               >
+               <a
+                  class="active px-2 py-1 border border-transparent rounded-md border-dashed hover:border-[#3C82F4] hover:text-[#3C82F4] duration-300 transition-all ease-linear"
+                  href="#"
+                  >Pricing</a
+               >
+               <a
+                  class="px-2 py-1 border border-transparent rounded-md border-dashed hover:border-[#3C82F4] hover:text-[#3C82F4] duration-300 transition-all ease-linear"
+                  href="#"
+                  >Blog</a
+               >
+               <a
+                  class="flex items-center justify-start gap-1 px-2 py-1 border border-transparent rounded-md border-dashed hover:border-[#3C82F4] hover:text-[#3C82F4] duration-300 transition-all ease-linear"
+                  href="#">
+                  Sign in
+               </a>
+            </div>
+         </footer>
       </main>
    </body>
 </html>
